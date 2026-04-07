@@ -1,0 +1,210 @@
+.page {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #111827;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  padding: 24px 16px 32px;
+}
+
+.header {
+  max-width: 860px;
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.stack {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.chat {
+  height: 62vh;
+  min-height: 360px;
+  overflow: auto;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.row {
+  display: flex;
+  margin: 10px 0;
+}
+
+.row.left {
+  justify-content: flex-start;
+}
+
+.row.right {
+  justify-content: flex-end;
+}
+
+.bubble {
+  max-width: 75%;
+  border-radius: 14px;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.bubble.user {
+  background: #111827;
+  border-color: #111827;
+  color: #ffffff;
+}
+
+.meta {
+  font-size: 11px;
+  opacity: 0.8;
+  margin-bottom: 6px;
+}
+
+.text {
+  white-space: pre-wrap;
+  line-height: 1.4;
+}
+
+.composer {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border-top: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.input {
+  flex: 1;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #111827;
+}
+
+.send {
+  border: 1px solid #111827;
+  background: #111827;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 0 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.send:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.formCard {
+  overflow: visible;
+}
+
+.formHeader {
+  padding: 14px 14px 0;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sectionHint {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.supportForm {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+.labelText {
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.control {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 14px;
+  outline: none;
+  font-family: inherit;
+}
+
+.control:focus {
+  border-color: #111827;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.formActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.confirmation {
+  font-size: 12px;
+  color: #065f46;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.footer {
+  max-width: 860px;
+  margin: 14px auto 0;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.footerDisclaimer {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
