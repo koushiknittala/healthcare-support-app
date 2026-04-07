@@ -1,6 +1,6 @@
 # Healthcare Support Assistant (Full-Stack)
 
-A beginner-friendly full-stack healthcare support web app with:
+A full-stack healthcare support web app with:
 - A **chatbot-style interface** (rule-based replies + optional OpenAI fallback)
 - A **Patient Support Form** to submit a request for follow-up
 
